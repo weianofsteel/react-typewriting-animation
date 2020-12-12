@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/ScrollUpButton.js',
+  entry: './src/Typewriter.js',
   output: {
     path: path.resolve('lib'),
-    filename: 'ScrollUpButton.js',
+    filename: 'Typewriter.js',
     libraryTarget: 'commonjs2',
   },
   module: {

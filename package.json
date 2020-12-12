@@ -1,15 +1,32 @@
 {
   "name": "react-typewriting-animation",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A simple react typewriter animation component",
+  "main": "./lib/Typewriter.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weianofsteel/react-typewriting-animation"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "typewriter",
+    "typing",
+    "animation"
+  ],
+  "author": "Weian Wang",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/weianofsteel/react-typewriting-animation"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
@@ -19,5 +36,10 @@
     "react-dom": "^17.0.1",
     "webpack": "^5.10.1",
     "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "css-loader": "^5.0.1",
+    "prop-types": "^15.7.2",
+    "style-loader": "^2.0.0"
   }
 }
