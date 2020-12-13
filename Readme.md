@@ -25,6 +25,7 @@ const Demo = () => {
                 rotateSpeed={1500}
                 typeSpeed={150}
                 fontSize={'24px'}
+                fontFamily={'Roboto'}
                 color={'#6f6f6f'}
                 heading={'Typewriter'}
                 dataText={['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']}
@@ -40,12 +41,12 @@ export default Demo;
 
 |       Name      |         Type         |  Default  |                   Description                  |
 |-----------------|----------------------|-----------|------------------------------------------------|
-|  imgsrc         |  [img1, img2, img3]  |  [ ]      | It's an array, put the name of image you       |
-|                 |  (array)             |           | imported as element.                           |
-|  rotateBy       |  number              |  3        | How many seconds your carousel rotate.         |
-|  width          |  string              |  '600px'  | Defines width for image in carousel            |
-|  height         |  string              |  '500px'  | Defines height for image in carousel           |
-|  navigateButton |  booling             |  null     | Radio navigate shows up when navigateButton    |
-|                 |                      |           | set to true                                    |
-|  controlButton  |  booling             |  null     | Control button shows up when controlButton     |
-|                 |                      |           | set to true                                    |
+|  dataText       |  array               |  [ ]      | It's an array, put the sentences as elements.  |
+|                 |                      |           | Each element should be string                  |
+|  heading        |  string              |  ''       | Title of this animation.                       |
+|  fontFamily     |  string              |  auto     | Defines font family for typewriting contents.  |
+|  fontSize       |  string              |  '20px'   | Defines font size for typewriting contents.    |
+|  color          |  string              |  'black'  | Defines color for typewriting contents.        |
+|  rotateSpeed    |  number              |  500      | How long typewriting animation show a full     |
+|                 |                      |           | element.                                       |
+|  typeSpeed      |  number              |  150      | Speed of typewriting animation.                |
