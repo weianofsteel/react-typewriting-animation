@@ -69,10 +69,11 @@ class Typewriter extends React.Component {
         const {
             fontSize,
             color,
+            fontFamily
         } = this.props;
       
         return (
-            <div style={{fontSize: fontSize? fontSize : '20px', color: color ? color : 'black'}}>
+            <div style={{fontSize:fontSize?fontSize:'20px', color:color?color:'black', fontFamily:fontFamily?fontFamily:auto}}>
                 <span>{ this.state.text }</span>
                 { this.state.isCursor === true ?
                     <span style={{borderLeft:'.1em solid black'}}></span>
