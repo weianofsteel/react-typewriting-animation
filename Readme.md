@@ -16,7 +16,7 @@ or
 
 ``` 
 import React from 'react';
-import Typewriter from '../../component/Public/Typewriter';
+import Typewriter from 'react-typewriting-animation';
 
 const Demo = () => {
     return(
