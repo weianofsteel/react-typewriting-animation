@@ -1,6 +1,6 @@
 {
   "name": "react-typewriting-animation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple react typewriter animation component",
   "main": "./lib/Typewriter.js",
   "repository": {

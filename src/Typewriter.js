@@ -77,10 +77,7 @@ class Typewriter extends React.Component {
                 <span>{ this.state.text }</span>
                 { this.state.isCursor === true ?
                     <span style={{borderLeft:'.1em solid black'}}></span>
-                :''}  
-                {this.state.text == "" && this.state.isCursor != true?
-                    <span style={{borderLeft:'.1em solid black'}}></span>
-                :''}
+                :<span>&nbsp;</span>}  
             </div>
         );
     }
