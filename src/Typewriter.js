@@ -23,6 +23,7 @@ class Typewriter extends React.Component {
     }
 
     componentWillUnmount() {
+        this.setState = () => false;
         clearInterval(this.handleCursor);
     }
 
